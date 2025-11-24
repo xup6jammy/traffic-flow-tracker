@@ -15,6 +15,11 @@
 ---
 
 A real-time traffic monitoring system based on YOLOv8 that automatically detects and counts southbound and northbound vehicles. Supports both GUI desktop and Web versions.
+<img width="1280" height="747" alt="2" src="https://github.com/user-attachments/assets/434f6e80-eba7-47da-9620-c4c07fdf60e3" />
+<img width="1280" height="747" alt="3" src="https://github.com/user-attachments/assets/bcef6d23-1120-4d71-9931-688fe4125593" />
+<img width="1280" height="747" alt="10" src="https://github.com/user-attachments/assets/2b596bf3-b461-4b80-9fb0-1f680d55da98" />
+<img width="1280" height="764" alt="30" src="https://github.com/user-attachments/assets/a43bc3f6-eff8-4259-9c06-104ccf1e45b5" />
+<img width="1280" height="747" alt="40" src="https://github.com/user-attachments/assets/b68e1e1a-6518-4273-88dc-7136265d6ab8" />
 
 ## 📋 Table of Contents
 
