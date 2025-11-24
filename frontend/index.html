@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台北市交通監控系統 - 車輛方向檢測</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stats-container">
+            <div class="stat-card southbound">
+                <div class="card-header">
+                    <span class="icon">🔽</span>
+                    <span class="title">南下車輛</span>
+                </div>
+                <div class="stat-value" id="southbound-count">0</div>
+            </div>
+
+            <div class="stat-card northbound">
+                <div class="card-header">
+                    <span class="icon">🔼</span>
+                    <span class="title">北上車輛</span>
+                </div>
+                <div class="stat-value" id="northbound-count">0</div>
+            </div>
+
+            <div class="stat-card total">
+                <div class="card-header">
+                    <span class="icon">📊</span>
+                    <span class="title">總計車輛</span>
+                </div>
+                <div class="stat-value" id="total-count">0</div>
+            </div>
+
+            <div class="stat-card fps">
+                <div class="card-header">
+                    <span class="icon">⚡</span>
+                    <span class="title">FPS</span>
+                </div>
+                <div class="stat-value" id="fps-value">0.0</div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="video-section">
+                <div class="section-title">即時監控畫面</div>
+                <div class="video-container">
+                    <img id="video-feed" src="" alt="視頻加載中...">
+                    <div class="loading" id="loading">
+                        <div class="spinner"></div>
+                        <p>正在連接視頻流...</p>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <span id="connection-status" class="status-badge connecting">連接中</span>
+                    <span id="stream-info">台北市交通監控 - M3U8 串流</span>
+                </div>
+            </div>
+
+            <div class="thumbnails-section">
+                <div class="thumbnail-group">
+                    <div class="group-title northbound-title">
+                        <span class="icon">🔼</span> 北上
+                    </div>
+                    <div class="thumbnail-list" id="northbound-thumbnails">
+                        <div class="empty-message">暫無車輛記錄</div>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="thumbnail-group">
+                    <div class="group-title southbound-title">
+                        <span class="icon">🔽</span> 南下
+                    </div>
+                    <div class="thumbnail-list" id="southbound-thumbnails">
+                        <div class="empty-message">暫無車輛記錄</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
