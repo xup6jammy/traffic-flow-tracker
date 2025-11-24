@@ -16,7 +16,7 @@
 
 一個基於 YOLOv8 的即時交通監控系統，能夠自動檢測並統計南下與北上車輛數量，支援 GUI 桌面版和 Web 版本。
 <img width="<img width="1280" height="747" alt="3" src="https://github.com/user-attachments/assets/38c6a0b5-b7c1-4b13-a77e-f5fbb47a5d67" />
-
+<img width="1280" height="747" alt="10" src="https://github.com/user-attachments/assets/c42ee0c7-050b-4031-9b82-80f2a7e2c267" />
 <img width="1280" height="764" alt="30" src="https://github.com/user-attachments/assets/c287d7a1-62ec-4590-8b10-e30a311b971e" />
 <img width="1280" height="747" alt="40" src="https://github.com/user-attachments/assets/467d4bea-b496-473c-a1b8-2d6f12a608f6" />
 
