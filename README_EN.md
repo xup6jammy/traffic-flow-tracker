@@ -301,20 +301,11 @@ Please include when submitting:
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details
 
-## 👥 Authors
-
-- **Your Name** - *Initial work*
-
 ## 🙏 Acknowledgments
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) - YOLO models
 - [Taipei City Government](https://gov.taipei/) - Traffic camera data source
-- All contributors
 
-## 📞 Contact
-
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
 
 ---
 
